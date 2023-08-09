@@ -1,0 +1,12 @@
+export const NEW_FEATURE_MODAL_PROPS_CHANGED = 'features/NewFeatureModalPropsChanged';
+export const GET_FEATURES_LIST = 'features/getFeatureList ';
+export const RESET_FUTURE_MODAL_PROPS = 'features/resetFutureModalProps';
+export const GET_FEATURE_BY_ID = 'features/getFeatureById';
+export const DRAWER_PROPS_CHANGED = 'features/drawerPropsChanged';
+export const GET_FEATURE_DETAILS_BY_ID = 'features/getFeatureDetailsById';
+export const EDIT_FIELD_LIST = 'features/editFieldList';
+export const FIELD_URL = 'features/setFieldUrl';
+export const IS_FETCHING = 'features/isFetching';
+export const SET_REQUEST_PAYLOAD = 'features/setRequestPayload';
+export const SET_SWITCH_TOGGLE = 'features/setSwitchToggle';
+export const SET_EXECUTED_ENDPOINTS = 'features/setExecutedEndpoints';

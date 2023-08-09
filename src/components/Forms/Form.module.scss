@@ -1,0 +1,24 @@
+.formContainer {
+    width: 95%;
+    background-color: white;
+    z-index: 9;
+    left: 1;
+    top: 1;
+    padding-bottom: 10px;
+    .form {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.treeForm {
+    display: flex;
+    align-items: center;
+    :global(.mantine-InputWrapper-root) {
+        padding-right: 24px;
+        padding-top: 12px;
+    }
+    :global(.mantine-Select-dropdown) {
+        z-index: 99999;
+    }
+}

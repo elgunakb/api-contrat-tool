@@ -1,0 +1,41 @@
+.submitBtn {
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    z-index: 9;
+    border-top-left-radius: 4px;
+    background: rgb(163, 163, 163);
+    background: linear-gradient(
+        180deg,
+        rgba(163, 163, 163, 0.23862044817927175) 0%,
+        rgba(227, 227, 227, 0.4823179271708683) 100%
+    );
+    button {
+        right: 0;
+    }
+}
+.treeForm {
+    padding-bottom: 24px;
+    position: relative;
+    left: 0;
+    overflow-y: auto;
+    max-height: 76vh;
+    min-height: 76vh;
+    width: 100%;
+}
+.a {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+    width: 100%;
+}
+.formContainer {
+    flex: 1 1 0;
+}
+:global(.mantine-Drawer-root) {
+    overflow: hidden;
+}

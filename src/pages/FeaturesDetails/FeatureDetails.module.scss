@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.futureTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+
+    span {
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+}
+.active {
+    p {
+        color: #00bd2f;
+        margin-left: 12px;
+    }
+}
+.archive {
+    p {
+        color: #e62222c4;
+        margin-left: 12px;
+    }
+}
+
+.get {
+    label {
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: rgba(34, 139, 230, 0.2);
+        h4 {
+            color: #228be6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+.post {
+    label {
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: rgba(73, 204, 144, 0.2);
+        h4 {
+            color: rgba(73, 204, 144);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+.delete {
+    label {
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: rgba(249, 62, 62, 0.2);
+        h4 {
+            color: rgba(249, 62, 62);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+.put {
+    label {
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: rgba(252, 161, 48, 0.2);
+        h4 {
+            color: rgba(252, 161, 48);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+.patch {
+    label {
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: rgba(62, 215, 182, 0.2);
+        h4 {
+            color: rgb(62, 215, 182);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+.options {
+    label {
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: rgba(13, 90, 167, 0.2);
+        h4 {
+            color: rgb(13, 90, 167);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+.head {
+    label {
+        background: rgba(144, 18, 254, 0.2);
+        width: 80px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        h4 {
+            color: rgb(144, 18, 254);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+}
+// .methods {
+
+// }
+:global(.mantine-Accordion-item) {
+    background-color: #eeeeee;
+    border: 1px solid #e2e2e2;
+    margin-top: 20px;
+    :global(.mantine-Accordion-item) {
+        background-color: #ffffff;
+        border: 1px solid #e2e2e2;
+        border-radius: 6px;
+        .accordionHeader {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            p {
+                margin-left: 24px;
+                color: #636363cb;
+            }
+        }
+        :global(.mantine-Accordion-panel) {
+            background-color: #ffffff;
+
+            :global(.mantine-Accordion-content) {
+                .panelContent {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                code {
+                    background-color: #282A36;
+                    color: white;
+                    width: 100%;
+                    font-family: 'Source Code Pro', monospace;
+                    font-weight: 500;
+                    line-height: 1.62rem;
+                    letter-spacing: 0.2px;
+                }
+
+                .runButton {
+                    background-color: #00bd2f;
+                    color: white;
+                }
+                .cancelButton {
+                    background-color: white;
+                    border: 1px solid red;
+                    color: red;
+                }
+                .executeButton {
+                    background-color: #228be6;
+                }
+                .editButtons {
+                    background-color: #ffffff;
+                    border: 1px solid #286fff;
+                    color: #286fff;
+                }
+            }
+        }
+        :global(.mantine-UnstyledButton-root) {
+            background-color: #ffffff;
+            border-radius: 6px;
+        }
+        :global(.mantine-Button-root) {
+            margin-top: 20px;
+            background-color: #ff0000;
+            margin-right: 20px;
+        }
+    }
+    :global(.mantine-UnstyledButton-root) {
+        background-color: #eeeeee;
+    }
+    :global(.mantine-UnstyledButton-root) {
+        background-color: #eeeeee;
+    }
+    .mantine-Accordion-content {
+        display: flex;
+    }
+}
+:global(.mantine-Accordion-panel) {
+    background-color: #eeeeee;
+}
+.futureSectionContainer{
+    padding-bottom: 16px;
+}

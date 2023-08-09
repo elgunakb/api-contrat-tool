@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px 60px;
+    flex: 1 1 auto;
+}
+
+header {
+    width: 100%;
+    height: 52px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+    z-index: 99;
+    position: fixed;
+    top: 0;
+}
+
+header .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div .logo {
+    cursor: pointer;
+}
+header div .logo img {
+    width: 36px;
+    height: 36px;
+}
+/*  */
+
+main {
+    background-color: #fbfbfb;
+    position: fixed;
+    top: 52px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+    background-color: #333333;
+}
+:global(.mantine-Tabs-root) {
+    padding-top: 20px;
+}
+.headerEnd {
+    display: flex;
+    align-items: center;
+}
+.headerEnd .toggleSwitch {
+    margin-right: 20px;
+}
+.headerEnd .toggleSwitch img {
+    width: 24px;
+    height: 24px;
+}
+.headerEnd .signIn {
+    cursor: pointer;
+}

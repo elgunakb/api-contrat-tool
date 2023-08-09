@@ -1,0 +1,38 @@
+li {
+    cursor: pointer;
+    margin: 6px;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(37, 45, 200, 0.127);
+    border-radius: 5px;
+    padding: 0 8px 0 12px;
+    display: flex;
+    font-size: 20px;
+    &:hover {
+        -webkit-box-shadow: 1.5px 1.5px 0.8px 0px rgba(0, 169, 254, 0.26);
+        -moz-box-shadow: 1.5px 1.5px 0.8px 0px rgba(0, 169, 254, 0.26);
+        box-shadow: 1.5px 1.5px 0.8px 0px rgba(0, 169, 254, 0.26);
+        background-color: #e4f3ff;
+    }
+    span {
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+}
+
+.tabList {
+    justify-content: space-between;
+    .tabBtn {
+        display: flex;
+    }
+}
+:global(.mantine-Tabs-tabsList) {
+    border-bottom: none;
+}
+.button {
+    color: #607c98;
+    margin-right: 8px;
+}
