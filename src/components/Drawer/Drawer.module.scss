@@ -23,19 +23,19 @@
     position: relative;
     left: 0;
     overflow-y: auto;
-    max-height: 76vh;
-    min-height: 76vh;
+    max-height: 64vh;
+    min-height: 64vh;
     width: 100%;
 }
 .a {
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 500px;
+    max-height: 300px;
     width: 100%;
 }
 .formContainer {
     flex: 1 1 0;
 }
-:global(.mantine-Drawer-root) {
+:global(.mantine-Paper-root) {
     overflow: hidden;
 }
