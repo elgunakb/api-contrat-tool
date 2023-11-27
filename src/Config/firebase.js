@@ -3,14 +3,14 @@ import { getDatabase } from 'firebase/database';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: 'AIzaSyB8gd71i6sJ_UsbHYcxWYvj5fT9HAUCjNs',
-    authDomain: 'apicontracttool.firebaseapp.com',
-    projectId: 'apicontracttool',
-    storageBucket: 'apicontracttool.appspot.com',
-    messagingSenderId: '821683111220',
-    appId: '1:821683111220:web:0162dd4105ce26c2fa9161',
-    measurementId: 'G-ZF8ZCK14H9',
-    databaseURL: 'https://apicontracttool-default-rtdb.europe-west1.firebasedatabase.app/',
+    apiKey: 'AIzaSyC1qVHQqwNs_jJZ91NXxZFb9SmV-vcgJFI',
+    authDomain: 'api-test-8ef53.firebaseapp.com',
+    projectId: 'api-test-8ef53',
+    storageBucket: 'api-test-8ef53.appspot.com',
+    messagingSenderId: '237013657374',
+    appId: '1:237013657374:web:d9f92a3b23b38e63c9cb0f',
+    measurementId: 'G-38FLM72CGQ',
+    databaseURL: 'https://api-test-8ef53-default-rtdb.europe-west1.firebasedatabase.app/',
 };
 
 const app = initializeApp(firebaseConfig);
