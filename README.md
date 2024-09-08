@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# API Contract Tool
 
-In the project directory, you can run:
+This is an **API Contract Tool** project, similar to **Swagger**, built with **React JS**. The tool allows users to interact with various APIs and databases in a simple and efficient way. The app is fully authenticated, with **Google login** functionality, and offers a smooth user experience.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Firebase Integration**: The app uses **Firebase** as the database, ensuring real-time updates and secure data storage.
+  
+- **Login Authentication**: Users can log in to the app using **Google Authentication**, providing a seamless login experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Main Features on the Homepage**: The homepage highlights the core features, where users can make API requests to different databases.
 
-### `npm test`
+- **API Requests**: Users can send API requests to various databases and view the responses in two formats:
+  - **Tree View**: A hierarchical structure for visualizing the response.
+  - **Input Form View**: Displays the response in an editable input form layout.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Database & API Management**: 
+  - The app allows users to add new databases and APIs dynamically.
+  - Users can add APIs using a **drawer** interface, which includes **nested input fields** to facilitate detailed configurations.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React JS**: The core library for building the user interface.
+- **Firebase**: Used for database management and authentication (Google login).
+- **Axios**: For making API requests.
+- **Redux & Redux Thunk**: To handle state management and asynchronous actions.
+- **Mantine UI**: A modern and customizable UI library used for the interface.
+- **Fortawesome**: For scalable and customizable icons throughout the app.
+- **SCSS**: To style the application with reusable and customizable components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project locally, follow the steps below:
 
-### `npm run eject`
+### 1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/api-contract-tool.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Navigate to the project directory:
+   ```bash
+   cd api-contract-tool
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4. Set up Firebase:
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+   - Enable Google authentication in the Firebase Authentication section.
+   - Create a `.env` file and add your Firebase configuration.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 5. Run the development server:
+   ```bash
+   npm start
+   ```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Login**: Log in to the app using your Google account.
+2. **Add Databases**: Use the drawer interface to add new databases and APIs.
+3. **Make API Requests**: Select a database and send an API request.
+4. **View Responses**: Responses can be viewed in either tree format or input form format.
+5. **Manage APIs**: Easily manage and add more APIs with nested input fields for detailed configurations.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
